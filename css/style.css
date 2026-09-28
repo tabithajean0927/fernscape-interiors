@@ -1,0 +1,281 @@
+/* Fernscape Interiors Custom Styles */
+body {
+    font-family: "Quicksand", sans-serif;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Alice", serif;
+    color: #0f5138;
+}
+
+.bg-custom {
+    background-color: #ffffff;
+}
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.navbar-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    color: #0f5138;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #0f5138;
+    text-decoration: underline;
+    text-decoration-color: #b06b34;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0f5138;
+    font-weight: 700;
+    border-bottom: 2px solid #b06b34;
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #0f5138;
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 0.75rem;
+}
+
+.bi {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer a:hover .bi,
+footer a:focus .bi {
+    color: #ea9f7c;
+}
+
+.service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feature-card i {
+    display: block;
+    color: #7e9764;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card {
+    background-color: #f7f5ef;
+    border-top: 4px solid #7e9764;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose .row {
+    align-items: stretch;
+}
+
+.hero-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        height: 250px;
+    }
+}
+
+.contact-details,
+.contact-form-section {
+    background-color: #f7f5ef;
+    border: 1px solid #d7e3dc;
+}
+
+.contact-intro .lead {
+    max-width: 700px;
+}
+
+.contact-details a {
+    color: #0f5138;
+    font-weight: 600;
+}
+
+.contact-details a:hover,
+.contact-details a:focus {
+    color: #8a4f23;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #508b71;
+    box-shadow: 0 0 0 0.25rem rgba(80, 139, 113, 0.25);
+}
+
+.btn-success {
+    background-color: #0f5138;
+    border-color: #0f5138;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #0f5138;
+    border-color: #0f5138;
+    box-shadow: 0 0 0 0.25rem rgba(80, 139, 113, 0.25);
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-title {
+    font-family: "Alice", serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+
+}
+
+.about-hero {
+    padding: 2rem 0;
+}
+
+.about-hero h1 {
+    margin-bottom: 1rem;
+}
+
+.about-hero img {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mission-section {
+    background-color: #eaf1ec;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+}
+.service-card {
+    background-color: #f7f5ef;
+    border-top: 4px solid #7e9764;
+}
+.service-card ul {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+}
+.services-hero img {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+.home-hero {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.home-hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.hero-eyebrow {
+    color:#b06b34;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.home-hero h1 {
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    line-height: 1.05;
+    margin-bottom: 1rem;
+}
+.home-hero .lead {
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+@media (max-width: 991px) {
+    .home-hero-image {
+        max-height: 320px;
+    }
+    .home-hero {
+        text-align: center;
+    }
+}
+.services-section .card {
+    border: 1px solid #d7e3dc;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.services-section .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(15, 81, 56, 0.12);
+}
+.services-section .card-body {
+    padding: 1.5rem;
+}
+.services-section .card-title {
+    margin-bottom: 0.75rem;
+}
+.services-section .card-text {
+    line-height: 1.7;
+}
+.service-image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+.home-cta {
+    background-color: #eaf1ec;
+    padding: 3.5rem 2rem;
+    margin-top: 3rem;
+    border-radius: 14px;
+}
+.home-cta p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}

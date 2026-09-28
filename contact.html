@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Fernscape Interiors</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/fernscape-logo-color.svg"
+            alt="Fernscape Interiors Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main page content -->
+  <main class="container py-5 flex-grow-1">
+    <section class="contact-intro text-center mb-5">
+      <h1>Contact Fernscape Interiors</h1>
+      <p class="lead mx-auto">Ready to bring beautiful indoor plants into your home or workplace? Contact our team to
+        ask a question or schedule a personalized consultation.</p>
+    </section>
+    <div class="row g-5">
+      <div class="col-12 col-lg-5">
+        <section class="contact-details p-4 rounded shadow-sm h-100">
+          <h2>Contact Information</h2>
+          <address>
+            <p class="fw-bold mb-1">Fernscape Interiors</p>
+            <p class="mb-1">257 Fairchild Way</p>
+            <p class="mb-3">Portland, Oregon 97035</p>
+            <p class="mb-3"><strong>Phone:</strong> <a href="tel:5032222222">(503) 222-2222</a></p>
+            <p class="mb-4"><strong>Email:</strong> <a
+                href="mailto:info@fernscapeinteriors.fi">info@fernscapeinteriors.fi</a></p>
+          </address>
+          <h2 class="h3 mt-4 mb-3">Business Hours</h2>
+          <ul class="list-unstyled business-hours">
+            <li class="d-flex flex-column flex-sm-row justify-content-between mb-2">
+              <span>Monday - Friday:</span>
+              <span>9:00 AM - 5:00 PM</span>
+            </li>
+
+            <li class="d-flex flex-column flex-sm-row justify-content-between">
+              <span>Saturday - Sunday:</span>
+              <span>Closed</span>
+            </li>
+          </ul>
+          <p class="small mt-4 mb-0">Plant consultations and commercial installations are available by appointment.</p>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <section class="contact-form-section p-4 rounded shadow-sm h-100">
+          <h2 class="mb-4">Send Us a Message</h2>
+          <form action="#" method="post">
+            <div class="mb-3">
+              <label for="fullname" class="form-label">Name</label>
+              <input type="text" class="form-control" id="fullname" name="fullname" autocomplete="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="phoneNumber" class="form-label">Phone Number <span
+                  class="text-muted">(Optional)</span></label>
+              <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" autocomplete="tel">
+            </div>
+            <div class="mb-3">
+              <label for="serviceInterest" class="form-label">Service of Interest</label>
+              <select class="form-select" id="serviceInterest" name="serviceInterest" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="indoor-plant-design">Indoor Plant Design</option>
+                <option value="plant-installation">Plant Installation</option>
+                <option value="plant-maintenance">Plant Maintenance</option>
+                <option value="office-greening">Office Greening</option>
+                <option value="green-living-spaces">Green Living Spaces</option>
+                <option value="plant-workshops">Plant Workshops</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label for="message" class="form-label">How can we help?</label>
+              <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+          </form>
+        </section>
+
+      </div>
+    </div>
+  </main>
+  <!-- Footer goes here -->
+  <footer class="footer mt-auto py-3">
+    <div class="container text-center">
+      <p class="footer-title">Fernscape Interiors</p>
+      <p>
+        257 Fairchild Way <br>
+        Portland, Oregon 97035 <br>
+        <a href="tel:5032222222">(503) 222-2222</a> <br>
+        Email:
+        info@fernscapeinteriors.fi
+      </p>
+      <p><strong>Business Hours:</strong> <br>
+        Monday - Friday: 9:00 AM - 5:00 PM <br>
+        Saturday - Sunday: Closed
+      </p>
+      <a href="https://www.facebook.com/fernscapeinteriors/" target="_blank" rel="noopener"
+        aria-label="Fernscape Interiors on Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/fernscape_int" target="_blank" rel="noopener"
+        aria-label="Fernscape Interiors on Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.tiktok.com/@fernscape_int" target="_blank" rel="noopener"
+        aria-label="Fernscape Interiors on TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+      <p class="copyright mb-0">&copy; 2026 Fernscape Interiors. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
